@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{F45CF3BE-21A6-406B-AA4B-C79CF8979F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{C3B6A45F-F859-4BA0-9036-C90412887741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C15F010C-E0FE-4E71-9EA0-59FA1F336323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45CF3BE-21A6-406B-AA4B-C79CF8979F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45CF3BE-21A6-406B-AA4B-C79CF8979F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45CF3BE-21A6-406B-AA4B-C79CF8979F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45CF3BE-21A6-406B-AA4B-C79CF8979F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B6A45F-F859-4BA0-9036-C90412887741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B6A45F-F859-4BA0-9036-C90412887741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B6A45F-F859-4BA0-9036-C90412887741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B6A45F-F859-4BA0-9036-C90412887741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15F010C-E0FE-4E71-9EA0-59FA1F336323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15F010C-E0FE-4E71-9EA0-59FA1F336323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15F010C-E0FE-4E71-9EA0-59FA1F336323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15F010C-E0FE-4E71-9EA0-59FA1F336323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A507B76-35FC-48A0-89EE-A4563C7CEFB2}
+	EndGlobalSection
+EndGlobal
