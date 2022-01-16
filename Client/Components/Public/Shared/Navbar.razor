@@ -40,11 +40,11 @@
         }
         else
         {
-            string[] pageToCheckUriSPlitBetweenSlashes = pageToCheckUri.Split('/').Skip(1).ToArray();
+            string[] pageToCheckUriSplitBetweenSlashes = pageToCheckUri.Split('/').Skip(1).ToArray();
 
             foreach (string currentUriPart in currentUriSplitBetweenSlashes)
             {
-                foreach(string pageToCheckUriPart in pageToCheckUriSPlitBetweenSlashes)
+                foreach(string pageToCheckUriPart in pageToCheckUriSplitBetweenSlashes)
                 {
                     if (pageToCheckUriPart == currentUriPart)
                     {
@@ -53,8 +53,7 @@
                 }
             }
         }
-
-        // If the code gets here pageToCheckUri is not hte active page. So return false.
+        // If the code gets here pageToCheckUri is not the active page. So return false.
         return false;
     }
 }
